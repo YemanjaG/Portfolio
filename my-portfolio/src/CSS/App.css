@@ -1,0 +1,46 @@
+.App {
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Arial', sans-serif; */
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.home {
+  text-align: center;
+}
+
+.skills {
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+  padding: 1rem;
+}
+
+.contact {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}

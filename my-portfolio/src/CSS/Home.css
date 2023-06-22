@@ -1,0 +1,41 @@
+.home {
+    position: relative;
+    height: 100vh;
+    background-image: url('https://source.unsplash.com/collection/4332580/1600x900');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .home-content {
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .home h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+  }
+
+  .interactive-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
